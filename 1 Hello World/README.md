@@ -1,1 +1,1 @@
-hey
+https://open.kattis.com/problems/hello
