@@ -1,0 +1,16 @@
+piecesList = input().split()
+kingNum = int(piecesList[0])
+queenNum = int(piecesList[1])
+rookNum = int(piecesList[2])
+bishopNum = int(piecesList[3])
+knightNum = int(piecesList[4])
+pawnNum = int(piecesList[5])
+
+
+kingAdjust = -(kingNum - 1)
+queenAdjust = -(queenNum - 1)
+rookAdjust = -(rookNum - 2)
+bishopAdjust = -(bishopNum - 2)
+knightAdjust = -(knightNum - 2)
+pawnAdjust = -(pawnNum - 8)
+print (kingAdjust, queenAdjust, rookAdjust, bishopAdjust, knightAdjust, pawnAdjust)
